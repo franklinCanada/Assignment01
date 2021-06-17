@@ -10,6 +10,12 @@ namespace Assignment01
     {
         static void Main(string[] args)
         {
+            Rectangle rect = new Rectangle(11, 44);
+            Console.WriteLine(rect);
+
+            Console.ReadLine();
+                 
+
         }
     }
 }
