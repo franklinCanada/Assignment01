@@ -11,39 +11,50 @@ namespace Assignment01
         private int length;
         private int width;
 
-        public Rectangle(int alength, int awidth) { length = alength; width = awidth; }
-       
-        public int GetLength
+        public Rectangle()
         {
-            get { return length; }
+            length = 1;
+            width = 1;
         }
 
-        public void SetLength(int value)
+        public Rectangle(int privLength, int privWidth)
         {
-            length = value;
+            length = privLength;
+            width = privWidth;
         }
 
-
-        public int Width
+        public int GetLength()
         {
-            get { return width; }
-          
+            return length;
         }
 
-        public void SetWidth(int value)
+        public int SetLength(int newLength)
         {
-            width = value;
-
+            length = newLength;
+            return length;
         }
 
-        public int GetGetPerimeter()
+        public int GetWidth()
         {
-          return (length + width) * 2;
+            return width;
         }
+
+        public int SetWidth(int newWidth)
+        {
+            width = newWidth;
+            return width;
+        }
+
+        public int GetPerimeter()
+        {
+            return 2 * (length + width);
+        }
+
         public int GetArea()
         {
             return length * width;
         }
-    }  
+        
+    }
 }
 
