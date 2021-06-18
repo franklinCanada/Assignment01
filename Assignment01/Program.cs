@@ -69,7 +69,7 @@ namespace Assignment01
 
         static void DisplayOption()
         {
-            Console.WriteLine("MENU");
+            Console.WriteLine("OPTION");
             Console.WriteLine("1. Get Rectangle Length");
             Console.WriteLine("2. Change Rectangle Length");
             Console.WriteLine("3. Get Rectangle Length");

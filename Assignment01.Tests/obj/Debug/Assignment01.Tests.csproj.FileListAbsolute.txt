@@ -1,0 +1,7 @@
+C:\Users\hp\Projects\Assignment01\Assignment01.Tests\bin\Debug\Assignment01.Tests.exe.config
+C:\Users\hp\Projects\Assignment01\Assignment01.Tests\bin\Debug\Assignment01.Tests.exe
+C:\Users\hp\Projects\Assignment01\Assignment01.Tests\bin\Debug\Assignment01.Tests.pdb
+C:\Users\hp\Projects\Assignment01\Assignment01.Tests\obj\Debug\Assignment01.Tests.csproj.CoreCompileInputs.cache
+C:\Users\hp\Projects\Assignment01\Assignment01.Tests\obj\Debug\Assignment01.Tests.exe
+C:\Users\hp\Projects\Assignment01\Assignment01.Tests\obj\Debug\Assignment01.Tests.pdb
+C:\Users\hp\Projects\Assignment01\Assignment01.Tests\obj\Debug\Assignment01.Tests.csproj.AssemblyReference.cache

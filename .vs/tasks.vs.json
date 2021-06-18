@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Assignment01.Tests",
+      "appliesTo": "Assignment01.Tests/Assignment01.Tests.csproj",
+      "type": "msbuild"
+    },
+    {
+      "taskLabel": "task-RectangleTest",
+      "appliesTo": "Assignment01.Tests/RectangleTest.cs",
+      "type": "launch"
+    }
+  ]
+}
