@@ -8,50 +8,42 @@ namespace Assignment01
 {
     public class Rectangle
     {
-        private int length = 1;
-        private int width = 1;
-        public Rectangle(int length, int width) { length = length; width = width; }
-        public int Length
-        {
-            get { return this.length; }
-            set {
-                if (value <= 0) _ = this.length;
-                else
-                    this.length = value;
-            }
+        private int length;
+        private int width;
 
+        public Rectangle(int alength, int awidth) { length = alength; width = awidth; }
+       
+        public int GetLength
+        {
+            get { return length; }
         }
+
+        public void SetLength(int value)
+        {
+            length = value;
+        }
+
+
         public int Width
         {
-            get { return this.width; }
-            set
-            {
-                if (value <= 0) _ = this.width;
-                else
-                {
-                    this.width=value;
-                }
-            }
+            get { return width; }
+          
         }
 
-        public int GetGetPerimeter
+        public void SetWidth(int value)
         {
-            get
-            {
-                 return (length + width) * 2;
-            }
+            width = value;
 
         }
-        public int GetArea
+
+        public int GetGetPerimeter()
         {
-            get
-            {
-                return length * width;
-            }
+          return (length + width) * 2;
         }
-        public override string ToString()
+        public int GetArea()
         {
-            return string.Format("perimeter is {0:F2}and area is {1:F2}",GetArea, GetGetPerimeter);
+            return length * width;
         }
     }  
 }
+

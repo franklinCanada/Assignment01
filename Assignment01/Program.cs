@@ -10,11 +10,15 @@ namespace Assignment01
     {
         static void Main(string[] args)
         {
-            Rectangle rect = new Rectangle(11, 44);
-            Console.WriteLine(rect);
+            Console.WriteLine("enter length");
+            var length = int.Parse(Console.ReadLine());
 
-            Console.ReadLine();
-                 
+            Console.WriteLine("enter length");
+            var width = int.Parse(Console.ReadLine());
+
+            Rectangle defaultRectangle = new Rectangle(length,width);
+
+            Console.WriteLine(defaultRectangle.GetArea);
 
         }
     }
